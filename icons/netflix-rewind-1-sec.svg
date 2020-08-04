@@ -1,0 +1,11 @@
+<svg viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect fill="#E92A2B" x="0" y="0" width="34" height="34"></rect>
+        <g id="netflixg" transform="translate(7.000000, 4.000000)">
+            <path d="M17.9992616,7.99804242 C19.2555293,9.6696987 20,11.7479091 20,14 C20,19.5228475 15.5228475,24 10,24 C4.4771525,24 0,19.5228475 0,14 C0,8.4771525 4.4771525,4 10,4 L12,4" stroke="#FFFFFF" stroke-width="2" transform="translate(10.000000, 14.000000) scale(-1, 1) translate(-10.000000, -14.000000) "></path>
+            <polyline stroke="#FFFFFF" stroke-width="2" points="11.5 0.5 8 3.92749023 11.5 7.5"></polyline>
+            <polyline stroke="#FFFFFF" stroke-width="2" points="7 0.5 3.5 4 7 7.5"></polyline>
+            <polygon fill="#FFFFFF" points="10.77 18.01 10.77 11 10.23 11 8 12.2 8.43 13 9.49 12.45 9.49 18.01"></polygon>
+        </g>
+    </g>
+</svg>
