@@ -1,5 +1,5 @@
 # Netflix Rewind 1 sec
-_A Firefox/Chrome extension that allows you to rewind the video for 1 second each time you press the < key._
+_A Firefox extension that allows you to rewind the video for 1 second each time you press the < key._
 
 
 - Use <kbd><</kbd> or <kbd>,</kbd> to rewind with 1 second
