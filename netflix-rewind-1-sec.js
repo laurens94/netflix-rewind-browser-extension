@@ -1,7 +1,7 @@
 ;
 (function () {
     function script() {
-        console.log("'Netflix Rewind 1 sec' plugin loaded")
+        console.debug("'Netflix Rewind 1 sec' plugin loaded")
         window.netflixRewindPlugin = {};
         
         window.netflixRewindPlugin.seek = function (e) {
@@ -10,12 +10,12 @@
                 switch (e.key) {
                     case '<':
                     case ',':
-                        console.log('Seeking backwards by 1 second');
+                        console.debug('Seeking backwards by 1 second');
                         window.netflixRewindPlugin.player.seek(currentTime - 1000)
                         break;
                     case '>':
                     case '.':
-                        console.log('Seeking forwards by 5 seconds');
+                        console.debug('Seeking forwards by 5 seconds');
                         window.netflixRewindPlugin.player.seek(currentTime + 5000)
                         break;
                 }
