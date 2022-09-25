@@ -14,11 +14,14 @@ _I made this extension because it annoys me that the default is 10 seconds._
 
 Please feel free to contribute by sending a Pull Request.
 
+### Dependencies
+You can either use `npm` or `pnpm` with the commands below or run `web-ext` directly:
+
 ### Running the extension
-`web-ext run`
+`pnpx web-ext run`
 
 ### Building
-`web-ext build`
+`pnpx web-ext build`
 
 ## Reference
 
