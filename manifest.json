@@ -1,17 +1,20 @@
 {
   "manifest_version": 2,
   "name": "Netflix Rewind 1 sec",
-  "version": "1.0",
-  "description": "Allows you to rewind the video for 1 second each time you press the < key", 
+  "version": "1.0.1",
+  "description": "Allows you to rewind the video for 1 second each time you press the < key",
   "icons": {
     "48": "icons/netflix-rewind-1-sec.svg",
     "96": "icons/netflix-rewind-1-sec.svg"
   },
-
   "content_scripts": [
     {
-      "matches": ["*://*.netflix.com/*"],
-      "js": ["netflix-rewind-1-sec.js"]
+      "matches": [
+        "*://*.netflix.com/*"
+      ],
+      "js": [
+        "netflix-rewind-1-sec.js"
+      ]
     }
   ]
 }
