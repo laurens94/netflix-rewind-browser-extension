@@ -1,6 +1,6 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L0BR8QG)
 
-[![Icon](https://addons.mozilla.org/user-media/addon_icons/2655/2655859-64.png)](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/)
+[![Icon](https://addons.mozilla.org/user-media/addon_icons/2655/2655859-64.png?modified=71a2c23d)](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/)
 
 # Netflix Rewind 1 sec
 _A Firefox extension that allows you to rewind the video for 1 second each time you press the < key._
