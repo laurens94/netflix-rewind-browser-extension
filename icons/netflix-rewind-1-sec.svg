@@ -1,11 +1,19 @@
 <svg viewBox="0 0 34 34" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect fill="#E92A2B" x="0" y="0" width="34" height="34"></rect>
-        <g id="netflixg" transform="translate(7.000000, 4.000000)">
-            <path d="M17.9992616,7.99804242 C19.2555293,9.6696987 20,11.7479091 20,14 C20,19.5228475 15.5228475,24 10,24 C4.4771525,24 0,19.5228475 0,14 C0,8.4771525 4.4771525,4 10,4 L12,4" stroke="#FFFFFF" stroke-width="2" transform="translate(10.000000, 14.000000) scale(-1, 1) translate(-10.000000, -14.000000) "></path>
-            <polyline stroke="#FFFFFF" stroke-width="2" points="11.5 0.5 8 3.92749023 11.5 7.5"></polyline>
-            <polyline stroke="#FFFFFF" stroke-width="2" points="7 0.5 3.5 4 7 7.5"></polyline>
-            <polygon fill="#FFFFFF" points="10.77 18.01 10.77 11 10.23 11 8 12.2 8.43 13 9.49 12.45 9.49 18.01"></polygon>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-1">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#1A1A1A" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="netflix-rewind-1-sec">
+            <rect id="Rectangle" fill="url(#radialGradient-1)" fill-rule="nonzero" x="0" y="0" width="34" height="34" rx="10"></rect>
+            <g id="netflixg" transform="translate(7.000000, 4.500000)">
+                <path d="M17.9992616,7.49804242 C19.2555293,9.1696987 20,11.2479091 20,13.5 C20,19.0228475 15.5228475,23.5 10,23.5 C4.4771525,23.5 0,19.0228475 0,13.5 C0,7.9771525 4.4771525,3.5 10,3.5 L12,3.5" id="Path" stroke="#E92A2B" stroke-width="2" transform="translate(10.000000, 13.500000) scale(-1, 1) translate(-10.000000, -13.500000) "></path>
+                <polyline id="Path" stroke="#E92A2B" stroke-width="2" points="11.5 0 8 3.42749023 11.5 7"></polyline>
+                <polyline id="Path" stroke="#E92A2B" stroke-width="2" points="7 0 3.5 3.5 7 7"></polyline>
+                <polygon id="Path" fill="#E92A2B" fill-rule="nonzero" points="10.77 17.51 10.77 10.5 10.23 10.5 8 11.7 8.43 12.5 9.49 11.95 9.49 17.51"></polygon>
+            </g>
         </g>
     </g>
 </svg>
