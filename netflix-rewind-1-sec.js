@@ -65,20 +65,8 @@
             }
         }
 
-        // Check for URL changes to make sure the plugin is reinitiated after navigation:
-        let previousUrl = "";
-        function watchUrlChange() {
-            if (window.location.href != previousUrl) {
-                window.netflixRewindPlugin.initPluginLogic();
-                previousUrl = window.location.href;
-            }
-
-            previousUrl = window.location.href;
-            setTimeout(function () {
-                watchUrlChange(window.location.href);
-            }, 1000);
-        }
-        watchUrlChange();
+        // Get current player every 3 seconds:
+        setInterval(window.netflixRewindPlugin.initPluginLogic, 3000);
 
         // Listen to keydown events:
         document.addEventListener('keydown', window.netflixRewindPlugin.seek);
