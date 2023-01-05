@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Options for Netflix Rewind 1 sec</title>
+
+  <link rel="stylesheet" href="./options/options.css">
+  <script src="./options/options.js" defer></script>
+</head>
+<body>
+  <div class="wrapper">
+    <fieldset>
+      <legend>
+        <h1 style="display: flex; align-items: center; gap: 1em;">
+          <img style="width: 2em; height: 2em;" src="../icons/netflix-rewind-1-sec.svg" alt="">
+          Options for Netflix Rewind 1 sec
+        </h1>
+      </legend>
+
+      <p>
+        Use <kbd><</kbd> or <kbd>,</kbd> to rewind with 1 second<br>
+        Use <kbd>></kbd> or <kbd>.</kbd> to skip with 5 seconds (does get stuck sometimes)
+      </p>
+
+      <p>
+        You can change the amount of seconds to rewind or seek forward.<br>
+        <i>Note: the default value on Netflix is 10 seconds.</i> 
+      </p>
+
+      <form action="options.html" method="post">
+        <label for="rewind-seconds">Rewind Seconds
+          <input type="number" name="rewind-seconds" id="rewind-seconds" value="1" min="1">
+        </label>
+
+        <label for="forward-seconds">Forward Seconds
+          <input type="number" name="forward-seconds" id="forward-seconds" value="5" min="1">
+        </label>
+
+        <button type="reset" id="reset">Reset to defaults</button>
+        <button type="submit" id="save">Save</button>
+      </form>
+    </fieldset>
+
+    <div class="footer">
+      <a href="https://github.com/laurens94/netflix-rewind-browser-extension" target="_blank" rel="noopener noreferrer">👨‍💻 Source Code</a>
+      <a href="https://github.com/laurens94/netflix-rewind-browser-extension/issues/new" target="_blank" rel="noopener noreferrer"><span>🐛 Report issue</span> &nbsp; <span>✨ Request feature</span></a>
+      <a href="https://ko-fi.com/lauwerens" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee 🫶</a>
+    </div>
+  </div>
+</body>
+</html>

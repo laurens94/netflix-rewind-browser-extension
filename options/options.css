@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+.wrapper {
+  max-width: 40rem;
+  margin: 2.5em auto;
+}
+
+p {
+  margin: .5em 0 2em;
+}
+
+.footer {
+  margin-top: 1em;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+kbd {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  padding: 0.2em 0.5em;
+  font-size: 0.9em;
+  font-family: monospace;
+  margin: 0 0.2em;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  white-space: nowrap;
+}
+
+a {
+  text-decoration: none;
+  padding: .5em;
+  display: inline-block;
+  color: rgb(108, 128, 144);
+  border-radius: 0.5em;
+}
+
+a span {
+  white-space: nowrap;
+}
+
+a:hover {
+  background-color: black;
+  color: white;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+form {
+  display: grid;
+  flex-wrap: wrap;
+  gap: 2.5em;
+  justify-content: space-between;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+label {
+  font-weight: bold;
+  grid-column: span 1;
+}
+
+input {
+  display: block;
+  padding: 0.5em;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+  font-size: 1.2em;
+}
+
+button {
+  grid-column: span 1;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 0.5em;
+}
+
+button#save {
+  color: white;
+  background-color: rgb(51, 51, 51);
+}
+
+button#save:hover {
+  background-color: black;
+}
