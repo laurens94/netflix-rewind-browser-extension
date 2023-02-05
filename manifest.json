@@ -13,6 +13,7 @@
         "*://*.netflix.com/*"
       ],
       "js": [
+        "browser-polyfill.min.js",
         "netflix-rewind-1-sec.js"
       ]
     }
