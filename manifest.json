@@ -4,8 +4,8 @@
   "version": "2.0.0",
   "description": "Allows you to rewind the video for 1 second each time you press the < key",
   "icons": {
-    "48": "icons/netflix-rewind-1-sec.svg",
-    "96": "icons/netflix-rewind-1-sec.svg",
+    "48": "icons/128.png",
+    "96": "icons/128.png",
     "128": "icons/128.png"
   },
   "content_scripts": [
