@@ -4,9 +4,7 @@
   "version": "2.0.0",
   "description": "Allows you to rewind the video for 1 second each time you press the < key",
   "icons": {
-    "48": "icons/128.png",
-    "96": "icons/128.png",
-    "128": "icons/128.png"
+    "48": "icons/128.png"
   },
   "content_scripts": [
     {
