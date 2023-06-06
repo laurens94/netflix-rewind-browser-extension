@@ -1,9 +1,9 @@
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L0BR8QG)
 
-[![Icon](https://addons.mozilla.org/user-media/addon_icons/2655/2655859-64.png?modified=71a2c23d) https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/)
+[![Icon](https://addons.mozilla.org/user-media/addon_icons/2655/2655859-64.png?modified=71a2c23d)](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/)
 
 # Netflix Rewind 1 sec
-_A [Firefox](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/) and Chrome extension that allows you to rewind the video for 1 second each time you press the < key._
+_A [Firefox](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/) and [Chrome](https://chrome.google.com/webstore/detail/netflix-rewind-1-sec/inpbafoldolmpeiebppjbckdpnkkhlej) extension that allows you to rewind the video for 1 second each time you press the < key._
 
 - Use <kbd><</kbd> or <kbd>,</kbd> to rewind with 1 second
 - Use <kbd>></kbd> or <kbd>.</kbd> to skip with 5 seconds _(does get stuck sometimes, idk why, maybe because of buffer/stream?)_
