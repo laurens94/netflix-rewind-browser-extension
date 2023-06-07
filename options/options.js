@@ -1,12 +1,12 @@
 let infoMessageTimeout;
 
+const defaults = {
+  rewindSec: 1,
+  seekForwardSec: 5
+};
+
 function saveOptions(e, reset = false) {
   if (!reset) e.preventDefault();
-
-  const defaults = {
-    rewindSec: 1,
-    seekForwardSec: 5
-  };
 
   browser.storage.sync.set({
     rewindSec: !reset ? document.querySelector("#rewind-seconds").value : defaults.rewindSec,
