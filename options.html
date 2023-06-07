@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +11,7 @@
   <script type="application/javascript" src="browser-polyfill.min.js"></script>
   <script src="./options/options.js" defer></script>
 </head>
+
 <body>
   <div class="wrapper">
     <fieldset>
@@ -21,13 +23,13 @@
       </legend>
 
       <p>
-        Use <kbd><</kbd> or <kbd>,</kbd> to rewind with 1 second<br>
-        Use <kbd>></kbd> or <kbd>.</kbd> to skip with 5 seconds (does get stuck sometimes)
+        Use <kbd>&lt;</kbd> (or <kbd>,</kbd>) to rewind with <span data-rewind-sec>1</span> seconds<br>
+        Use <kbd>&gt;</kbd> (or <kbd>.</kbd>) to seek forward with <span data-forward-sec>5</span> seconds
       </p>
 
       <p>
         You can change the amount of seconds to rewind or seek forward.<br>
-        <i>Note: the default value on Netflix is 10 seconds.</i> 
+        <i>Note: the default value on Netflix is 10 seconds.</i>
       </p>
 
       <form action="options.html" method="post">
@@ -45,10 +47,13 @@
     </fieldset>
 
     <div class="footer">
-      <a href="https://github.com/laurens94/netflix-rewind-browser-extension" target="_blank" rel="noopener noreferrer">👨‍💻 Source Code</a>
-      <a href="https://github.com/laurens94/netflix-rewind-browser-extension/issues/new" target="_blank" rel="noopener noreferrer"><span>🐛 Report issue</span> &nbsp; <span>✨ Request feature</span></a>
+      <a href="https://github.com/laurens94/netflix-rewind-browser-extension" target="_blank"
+        rel="noopener noreferrer">👨‍💻 Source Code</a>
+      <a href="https://github.com/laurens94/netflix-rewind-browser-extension/issues/new" target="_blank"
+        rel="noopener noreferrer"><span>🐛 Report issue</span> &nbsp; <span>✨ Request feature</span></a>
       <a href="https://ko-fi.com/lauwerens" target="_blank" rel="noopener noreferrer">☕ Buy me a coffee 🫶</a>
     </div>
   </div>
 </body>
+
 </html>
