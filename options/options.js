@@ -3,10 +3,18 @@ let infoMessageTimeout;
 function saveOptions(e, reset = false) {
   if (!reset) e.preventDefault();
 
+  const defaults = {
+    rewindSec: 1,
+    seekForwardSec: 5
+  };
+
   browser.storage.sync.set({
-    rewindSec: !reset ? document.querySelector("#rewind-seconds").value : 1,
-    seekForwardSec: !reset ? document.querySelector("#forward-seconds").value : 5
+    rewindSec: !reset ? document.querySelector("#rewind-seconds").value : defaults.rewindSec,
+    seekForwardSec: !reset ? document.querySelector("#forward-seconds").value : defaults.seekForwardSec
   });
+
+  document.querySelector('[data-rewind-sec]').innerText = !reset ? document.querySelector("#rewind-seconds").value : defaults.rewindSec;
+  document.querySelector('[data-forward-sec]').innerText = !reset ? document.querySelector("#forward-seconds").value : defaults.seekForwardSec;
 
   let btn = document.querySelector(reset ? "#reset" : "#save");
   btn.textContent = `✓ ${reset ? 'Defaults saved' : 'Saved'}!`;
@@ -18,8 +26,8 @@ function saveOptions(e, reset = false) {
 
 function restoreOptions() {
   function setCurrentChoice(result) {
-    document.querySelector("#rewind-seconds").value = result.rewindSec || 1;
-    document.querySelector("#forward-seconds").value = result.seekForwardSec || 5;
+    document.querySelector("#rewind-seconds").value = result.rewindSec || defaults.rewindSec;
+    document.querySelector("#forward-seconds").value = result.seekForwardSec || defaults.seekForwardSec;
   }
 
   function onError(error) {
