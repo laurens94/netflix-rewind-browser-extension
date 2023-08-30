@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Netflix Rewind 1 sec",
+  "name": "__MSG_extensionName__",
   "version": "3.0.1",
-  "description": "Allows you to rewind the video for 1 second each time you press the < key",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
   "icons": {
     "48": "icons/128.png"
   },

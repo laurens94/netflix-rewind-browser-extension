@@ -6,7 +6,7 @@
   }
 
   function onError(error) {
-    console.warn(`Could not load settings for Netflix Rewind 1 Sec, falling back to defaults...`, error);
+    console.warn(browser.i18n.getMessage("debugCouldNotLoadSettings", browser.i18n.getMessage("extensionName")), error);
     inject();
   }
 

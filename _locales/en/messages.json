@@ -1,0 +1,30 @@
+{
+  "extensionName": {
+    "message": "Netflix Rewind 1 sec",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Seek through video with an x amount of seconds (adjustable)",
+    "description": "Description of the extension."
+  },
+  "debugPluginLoaded": {
+    "message": "'$EXTENSIONNAME$' plugin loaded.",
+    "description": "Debug message when plugin is loaded.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "debugCouldNotLoadSettings": {
+    "message": "Could not load settings for $EXTENSIONNAME$, falling back to defaults...",
+    "description": "Debug message when settings could not be loaded and defaults are loaded instead.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  }
+}

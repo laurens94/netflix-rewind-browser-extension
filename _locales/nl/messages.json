@@ -1,0 +1,10 @@
+{
+  "extensionName": {
+    "message": "Netflix Rewind 1 sec",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Spoel terug met een x aantal seconden (instelbaar)",
+    "description": "Description of the extension."
+  }
+}
