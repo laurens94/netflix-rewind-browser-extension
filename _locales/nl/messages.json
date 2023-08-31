@@ -2,5 +2,93 @@
   "extensionDescription": {
     "message": "Spoel terug met x seconden (instelbaar)",
     "description": "Description of the extension."
+  },
+  "optionsTitle": {
+    "message": "Opties voor $EXTENSIONNAME$",
+    "description": "Title of the options page.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsKeyboardControlsRewind": {
+    "message": "Gebruik $BTN1$ (of $BTN2$) om met $SECONDS$ seconden terug te spoelen",
+    "description": "Description for the keyboard controls to rewind.",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd>&lt;</kbd>"
+      },
+      "btn2": {
+        "content": "<kbd>,</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-rewind-sec>1</span>"
+      }
+    }
+  },
+  "optionsKeyboardControlsForward": {
+    "message": "Gebruik $BTN1$ (of $BTN2$) om met $SECONDS$ seconden vooruit te spoelen",
+    "description": "Description for the keyboard controls to seek forward.",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd>&gt;</kbd>"
+      },
+      "btn2": {
+        "content": "<kbd>.</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-forward-sec>5</span>"
+      }
+    }
+  },
+  "optionsCustomizationIntroduction": {
+    "message": "Je kunt het aantal seconden om terug of vooruit te spoelen aanpassen.",
+    "description": "Introduction to the customization section."
+  },
+  "optionsNoteNetflixDefaults": {
+    "message": "Opmerking: de standaard instelling op Netflix is 10 seconden.",
+    "description": "Note about the default value on Netflix."
+  },
+  "optionsForwardSeconds": {
+    "message": "Vooruit spoelen",
+    "description": "Label for the forward seconds setting."
+  },
+  "optionsRewindSeconds": {
+    "message": "Terugspoelen",
+    "description": "Label for the rewind seconds setting."
+  },
+  "optionsResetToDefaults": {
+    "message": "Herstel standaardinstellingen",
+    "description": "Button to reset settings to defaults."
+  },
+  "optionsDefaultsSaved": {
+    "message": "Standaardinstellingen opgeslagen!",
+    "description": "Message to show when settings are reset to defaults."
+  },
+  "optionsSave": {
+    "message": "Opslaan",
+    "description": "Button to save settings."
+  },
+  "optionsSaved": {
+    "message": "Opgeslagen!",
+    "description": "Message to show when settings are saved."
+  },
+  "optionsSourceCode": {
+    "message": "Broncode",
+    "description": "Link to the source code."
+  },
+  "optionsReportIssue": {
+    "message": "Meld bug",
+    "description": "Link to report an issue."
+  },
+  "optionsRequestFeature": {
+    "message": "Feature verzoek",
+    "description": "Link to request a feature."
+  },
+  "optionsDonate": {
+    "message": "Doneer een kop koffie",
+    "description": "Link to donate."
   }
 }

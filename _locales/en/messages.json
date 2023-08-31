@@ -26,5 +26,93 @@
         "example": "Netflix Rewind 1 sec"
       }
     }
+  },
+  "optionsTitle": {
+    "message": "Options for $EXTENSIONNAME$",
+    "description": "Title of the options page.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsKeyboardControlsRewind": {
+    "message": "Use $BTN1$ (or $BTN2$) to rewind with $SECONDS$ seconds",
+    "description": "Description for the keyboard controls to rewind.",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd>&lt;</kbd>"
+      },
+      "btn2": {
+        "content": "<kbd>,</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-rewind-sec>1</span>"
+      }
+    }
+  },
+  "optionsKeyboardControlsForward": {
+    "message": "Use $BTN1$ (or $BTN2$) to seek forward with $SECONDS$ seconds",
+    "description": "Description for the keyboard controls to seek forward.",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd>&gt;</kbd>"
+      },
+      "btn2": {
+        "content": "<kbd>.</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-forward-sec>5</span>"
+      }
+    }
+  },
+  "optionsCustomizationIntroduction": {
+    "message": "You can change the amount of seconds to rewind or seek forward.",
+    "description": "Introduction to the customization section."
+  },
+  "optionsNoteNetflixDefaults": {
+    "message": "Note: the default value on Netflix is 10 seconds.",
+    "description": "Note about the default value on Netflix."
+  },
+  "optionsForwardSeconds": {
+    "message": "Forward seconds",
+    "description": "Label for the forward seconds setting."
+  },
+  "optionsRewindSeconds": {
+    "message": "Rewind seconds",
+    "description": "Label for the rewind seconds setting."
+  },
+  "optionsResetToDefaults": {
+    "message": "Reset to defaults",
+    "description": "Button to reset settings to defaults."
+  },
+  "optionsDefaultsSaved": {
+    "message": "Defaults saved!",
+    "description": "Message to show when settings are reset to defaults."
+  },
+  "optionsSave": {
+    "message": "Save",
+    "description": "Button to save settings."
+  },
+  "optionsSaved": {
+    "message": "Saved!",
+    "description": "Message to show when settings are saved."
+  },
+  "optionsSourceCode": {
+    "message": "Source code",
+    "description": "Link to the source code."
+  },
+  "optionsReportIssue": {
+    "message": "Report issue",
+    "description": "Link to report an issue."
+  },
+  "optionsRequestFeature": {
+    "message": "Request feature",
+    "description": "Link to request a feature."
+  },
+  "optionsDonate": {
+    "message": "Buy me a coffee",
+    "description": "Link to donate."
   }
 }
