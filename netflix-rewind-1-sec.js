@@ -1,4 +1,9 @@
-console.debug("💾 'Netflix Rewind 1 sec' plugin loaded.");
+!async function () {
+  const extensionName = await getI18nMessage('extensionName'),
+    debugPluginLoadedMessage = await getI18nMessage('debugPluginLoaded', extensionName);
+  console.debug(`💾 ${debugPluginLoadedMessage}`);
+}();
+
 const params = new URLSearchParams(document.currentScript.src.split('?')[1]);
 
 window.netflixRewindPlugin = {};
@@ -73,3 +78,20 @@ setInterval(window.netflixRewindPlugin.initPluginLogic, 3000);
 
 // Listen to keydown events:
 document.addEventListener('keydown', window.netflixRewindPlugin.seek);
+
+function getI18nMessage(key, ...params) {
+  return new Promise((res, rej) => {
+    const channel = new MessageChannel();
+
+    channel.port1.onmessage = ({ data }) => {
+      channel.port1.close();
+      if (data.error) {
+        rej(data.error);
+      } else {
+        res(data.result);
+      }
+    };
+
+    window.postMessage({ type: 'getI18nMessage', key: key, params }, window.location.origin, [channel.port2]);
+  })
+};

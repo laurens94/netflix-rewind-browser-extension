@@ -6,9 +6,25 @@
   }
 
   function onError(error) {
-    console.warn(`Could not load settings for Netflix Rewind 1 Sec, falling back to defaults...`, error);
+    console.warn(browser.i18n.getMessage("debugCouldNotLoadSettings", browser.i18n.getMessage("extensionName")), error);
     inject();
   }
+
+  window.addEventListener("message", (event) => {
+    if (event.origin === window.origin) {
+      if (event.data.type === 'getI18nMessage') {
+        try {
+          if (typeof event.data.key !== 'string') {
+            throw new Error("key must be a string");
+          }
+          event.ports[0].postMessage({ result: browser.i18n.getMessage(event.data.key, ...event.data.params) });
+        } catch (e) {
+          if (!event.ports[0]) return;
+          event.ports[0].postMessage({ error: e });
+        }
+      }
+    }
+  }, false)
 
   function onGot(item) {
     if (item.rewindSec > 0) {
