@@ -94,5 +94,25 @@
   "optionsDonate": {
     "message": "Doneer een kop koffie",
     "description": "Link to donate."
+  },
+  "debugCouldNotLoadSettings": {
+    "message": "Kan geen instellingen voor $EXTENSIONNAME$ laden, standaardinstellingen worden toegepast…",
+    "description": "Debug message when settings could not be loaded and defaults are loaded instead.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "debugPluginLoaded": {
+    "message": "'$EXTENSIONNAME$' plugin is geladen.",
+    "description": "Debug message when plugin is loaded.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
   }
 }

@@ -18,7 +18,7 @@
     }
   },
   "debugCouldNotLoadSettings": {
-    "message": "Could not load settings for $EXTENSIONNAME$, falling back to defaults...",
+    "message": "Could not load settings for $EXTENSIONNAME$, falling back to defaults…",
     "description": "Debug message when settings could not be loaded and defaults are loaded instead.",
     "placeholders": {
       "extensionname": {
