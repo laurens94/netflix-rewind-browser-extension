@@ -30,7 +30,6 @@ function replaceTemplate(id, data) {
     .replace(
       /%(\w*)%/g, // replaces %key% with property from data object
       function (_, key) {
-        console.log(_, key, data, data[key]);
         return data.hasOwnProperty(key) ? data[key] : "";
       }
     );
