@@ -1,11 +1,11 @@
 [![Icon](https://addons.mozilla.org/user-media/addon_icons/2655/2655859-64.png?modified=71a2c23d)](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/)
 
-![Mozilla Add-on Version](https://img.shields.io/amo/v/netflix-rewind-1-sec)
-![Mozilla Add-on Users](https://img.shields.io/amo/users/netflix-rewind-1-sec)
-![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/inpbafoldolmpeiebppjbckdpnkkhlej)
-![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/inpbafoldolmpeiebppjbckdpnkkhlej)
-![GitHub release (with filter)](https://img.shields.io/github/v/release/laurens94/netflix-rewind-browser-extension)
-![GitHub License](https://img.shields.io/github/license/laurens94/netflix-rewind-browser-extension)
+[![Mozilla Add-on Version](https://img.shields.io/amo/v/netflix-rewind-1-sec)](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/)
+[![Mozilla Add-on Users](https://img.shields.io/amo/users/netflix-rewind-1-sec)](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/)
+[![Chrome Web Store Version](https://img.shields.io/chrome-web-store/v/inpbafoldolmpeiebppjbckdpnkkhlej)](https://chromewebstore.google.com/detail/netflix-rewind-1-sec/inpbafoldolmpeiebppjbckdpnkkhlej)
+[![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/inpbafoldolmpeiebppjbckdpnkkhlej)](https://chromewebstore.google.com/detail/netflix-rewind-1-sec/inpbafoldolmpeiebppjbckdpnkkhlej)
+[![GitHub release (with filter)](https://img.shields.io/github/v/release/laurens94/netflix-rewind-browser-extension)](https://github.com/laurens94/netflix-rewind-browser-extension/releases)
+[![GitHub License](https://img.shields.io/github/license/laurens94/netflix-rewind-browser-extension)](https://github.com/laurens94/netflix-rewind-browser-extension/blob/master/LICENSE)
 [![Translation status](https://hosted.weblate.org/widget/netflix-rewind-browser-extension/svg-badge.svg)](https://hosted.weblate.org/engage/netflix-rewind-browser-extension/)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L0BR8QG)
@@ -16,7 +16,7 @@
 _I made this extension because it annoys me that the default is 10 seconds._
 
 - Use <kbd><</kbd> or <kbd>,</kbd> to rewind with 1 second
-- Use <kbd>></kbd> or <kbd>.</kbd> to seek forward with 5 seconds _(does get stuck sometimes, idk why, maybe because of buffer/stream?)_
+- Use <kbd>></kbd> or <kbd>.</kbd> to seek forward with 5 seconds
 
 🛠️ It's also possible to change the amount of seconds using the Options page of this extension.
 
