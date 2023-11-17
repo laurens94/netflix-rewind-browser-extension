@@ -1,0 +1,118 @@
+{
+  "optionsKeyboardControlsRewind": {
+    "message": "Bruk $BTN1$ (eller $BTN2$) for å spole $SECONDS$ skunder tilbake",
+    "description": "Description for the keyboard controls to rewind.",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd>&lt;</kbd>"
+      },
+      "btn2": {
+        "content": "<kbd>,</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-rewind-sec>1</span>"
+      }
+    }
+  },
+  "debugCouldNotLoadSettings": {
+    "message": "Kunne ikke laste inn innstillinger for $EXTENSIONNAME$, bruker forvalg …",
+    "description": "Debug message when settings could not be loaded and defaults are loaded instead.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsNoteNetflixDefaults": {
+    "message": "Merk: Forvalgsverdien på Netflix er 10 sek.",
+    "description": "Note about the default value on Netflix."
+  },
+  "optionsResetToDefaults": {
+    "message": "Tilbakestill til forvalg",
+    "description": "Button to reset settings to defaults."
+  },
+  "debugPluginLoaded": {
+    "message": "'$EXTENSIONNAME$'-utvidelse innlastet.",
+    "description": "Debug message when plugin is loaded.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "extensionName": {
+    "message": "Netflix-tilbakespoling 1 sek",
+    "description": "Name of the extension."
+  },
+  "optionsKeyboardControlsForward": {
+    "message": "Bruk$BTN1$ (eller $BTN2$) for å blafre $SECONDS$ sekunder forover",
+    "description": "Description for the keyboard controls to seek forward.",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd>&gt;</kbd>"
+      },
+      "btn2": {
+        "content": "<kbd>.</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-forward-sec>5</span>"
+      }
+    }
+  },
+  "extensionDescription": {
+    "message": "Blafre gjennom videoer med justerbart antall sekunder",
+    "description": "Description of the extension."
+  },
+  "optionsSave": {
+    "message": "Lagre",
+    "description": "Button to save settings."
+  },
+  "optionsForwardSeconds": {
+    "message": "Foroverblafring",
+    "description": "Label for the forward seconds setting."
+  },
+  "optionsRewindSeconds": {
+    "message": "Tilbakespoling",
+    "description": "Label for the rewind seconds setting."
+  },
+  "optionsSaved": {
+    "message": "Lagret",
+    "description": "Message to show when settings are saved."
+  },
+  "optionsReportIssue": {
+    "message": "Innrapporter feil",
+    "description": "Link to report an issue."
+  },
+  "optionsRequestFeature": {
+    "message": "Forespørselsfeil",
+    "description": "Link to request a feature."
+  },
+  "optionsDonate": {
+    "message": "Spander drikke",
+    "description": "Link to donate."
+  },
+  "optionsTitle": {
+    "message": "Alternativer for $EXTENSIONNAME$",
+    "description": "Title of the options page.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsSourceCode": {
+    "message": "Kildekode",
+    "description": "Link to the source code."
+  },
+  "optionsCustomizationIntroduction": {
+    "message": "Du kan endre mengden sekunder å spole tilbake eller blafre forover.",
+    "description": "Introduction to the customization section."
+  },
+  "optionsDefaultsSaved": {
+    "message": "Forvalg lagret",
+    "description": "Message to show when settings are reset to defaults."
+  }
+}
