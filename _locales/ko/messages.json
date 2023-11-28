@@ -43,7 +43,7 @@
     }
   },
   "extensionName": {
-    "message": "넷플릭스 1초씩 되감기",
+    "message": "넷플릭스 1초 되감기",
     "description": "Name of the extension."
   },
   "optionsKeyboardControlsForward": {
@@ -62,7 +62,7 @@
     }
   },
   "extensionDescription": {
-    "message": "영상에서 원하는 초 단위 만큼의 듀레이션 이동이 가능합니다.",
+    "message": "비디오 안에서 원하는 만큼의  초 단위 이동이 가능합니다.",
     "description": "Description of the extension."
   },
   "optionsSave": {
