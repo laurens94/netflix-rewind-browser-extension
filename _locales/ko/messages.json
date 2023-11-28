@@ -1,1 +1,118 @@
-{}
+{
+  "optionsKeyboardControlsRewind": {
+    "message": "$BTN1$(또는 $BTN2$)를 사용하여 $SECONDS$초로 되감기",
+    "description": "Description for the keyboard controls to rewind.",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd>&lt;</kbd>"
+      },
+      "btn2": {
+        "content": "<kbd>,</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-rewind-sec>1</span>"
+      }
+    }
+  },
+  "debugCouldNotLoadSettings": {
+    "message": "$EXTNAME$에 대한 설정을 할 수 없습니다. 기본값으로 돌아갑니다.",
+    "description": "Debug message when settings could not be loaded and defaults are loaded instead.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsNoteNetflixDefaults": {
+    "message": "참고: 넷플릭스의 기본 초 단위 값은 10초입니다.",
+    "description": "Note about the default value on Netflix."
+  },
+  "optionsResetToDefaults": {
+    "message": "기본 설정으로 리셋",
+    "description": "Button to reset settings to defaults."
+  },
+  "debugPluginLoaded": {
+    "message": "'$EXTNAME$' 플러그인이 준비되었습니다.",
+    "description": "Debug message when plugin is loaded.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "extensionName": {
+    "message": "넷플릭스 1초씩 되감기",
+    "description": "Name of the extension."
+  },
+  "optionsKeyboardControlsForward": {
+    "message": "$BTN1$(또는 $BTN2$)를 사용하여 $SECONDS$초로 앞으로 감기",
+    "description": "Description for the keyboard controls to seek forward.",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd>&gt;</kbd>"
+      },
+      "btn2": {
+        "content": "<kbd>.</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-forward-sec>5</span>"
+      }
+    }
+  },
+  "extensionDescription": {
+    "message": "영상에서 원하는 초 단위 만큼의 듀레이션 이동이 가능합니다.",
+    "description": "Description of the extension."
+  },
+  "optionsSave": {
+    "message": "저장",
+    "description": "Button to save settings."
+  },
+  "optionsForwardSeconds": {
+    "message": "앞으로 가는 초 단위",
+    "description": "Label for the forward seconds setting."
+  },
+  "optionsRewindSeconds": {
+    "message": "뒤로 가는 초 단위",
+    "description": "Label for the rewind seconds setting."
+  },
+  "optionsSaved": {
+    "message": "저장 완료!",
+    "description": "Message to show when settings are saved."
+  },
+  "optionsReportIssue": {
+    "message": "이슈 보고",
+    "description": "Link to report an issue."
+  },
+  "optionsRequestFeature": {
+    "message": "특별사항 요청",
+    "description": "Link to request a feature."
+  },
+  "optionsDonate": {
+    "message": "커피 한 잔 사주세요",
+    "description": "Link to donate."
+  },
+  "optionsTitle": {
+    "message": "$EXTNAME$위한 옵션",
+    "description": "Title of the options page.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsSourceCode": {
+    "message": "소스 코드",
+    "description": "Link to the source code."
+  },
+  "optionsCustomizationIntroduction": {
+    "message": "'되감기 혹은 앞으로 감기' 위한 '초 단위 설정 및 변경'이 가능합니다.",
+    "description": "Introduction to the customization section."
+  },
+  "optionsDefaultsSaved": {
+    "message": "기본 설정 저장 완료!",
+    "description": "Message to show when settings are reset to defaults."
+  }
+}
