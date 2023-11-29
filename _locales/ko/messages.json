@@ -15,7 +15,7 @@
     }
   },
   "debugCouldNotLoadSettings": {
-    "message": "$EXTNAME$에 대한 설정을 할 수 없습니다. 기본값으로 돌아갑니다.",
+    "message": "$EXTENSIONNAME$에 대한 설정을 할 수 없습니다. 기본값으로 돌아갑니다…",
     "description": "Debug message when settings could not be loaded and defaults are loaded instead.",
     "placeholders": {
       "extensionname": {
@@ -33,7 +33,7 @@
     "description": "Button to reset settings to defaults."
   },
   "debugPluginLoaded": {
-    "message": "'$EXTNAME$' 플러그인이 준비되었습니다.",
+    "message": "'$EXTENSIONNAME$' 플러그인이 준비되었습니다.",
     "description": "Debug message when plugin is loaded.",
     "placeholders": {
       "extensionname": {
@@ -94,7 +94,7 @@
     "description": "Link to donate."
   },
   "optionsTitle": {
-    "message": "$EXTNAME$위한 옵션",
+    "message": "$EXTENSIONNAME$위한 옵션",
     "description": "Title of the options page.",
     "placeholders": {
       "extensionname": {
