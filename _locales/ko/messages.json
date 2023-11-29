@@ -33,7 +33,7 @@
     "description": "Button to reset settings to defaults."
   },
   "debugPluginLoaded": {
-    "message": "'$EXTNAME$' 플러그인이 로드되었습니다.",
+    "message": "'$EXTENSIONNAME$' 플러그인이 로드되었습니다.",
     "description": "Debug message when plugin is loaded.",
     "placeholders": {
       "extensionname": {
@@ -62,7 +62,7 @@
     }
   },
   "extensionDescription": {
-    "message": "비디오 안에서 원하는 만큼의  초 단위 이동이 가능합니다.",
+    "message": "비디오 안에서 원하는 만큼의 초 단위 이동이 가능합니다",
     "description": "Description of the extension."
   },
   "optionsSave": {
