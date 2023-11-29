@@ -33,7 +33,7 @@
     "description": "Button to reset settings to defaults."
   },
   "debugPluginLoaded": {
-    "message": "'$EXTENSIONNAME$' 플러그인이 준비되었습니다.",
+    "message": "'$EXTNAME$' 플러그인이 로드되었습니다.",
     "description": "Debug message when plugin is loaded.",
     "placeholders": {
       "extensionname": {
