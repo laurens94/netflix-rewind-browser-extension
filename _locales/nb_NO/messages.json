@@ -78,7 +78,7 @@
     "description": "Label for the rewind seconds setting."
   },
   "optionsSaved": {
-    "message": "Lagret",
+    "message": "Lagret!",
     "description": "Message to show when settings are saved."
   },
   "optionsReportIssue": {
@@ -112,7 +112,7 @@
     "description": "Introduction to the customization section."
   },
   "optionsDefaultsSaved": {
-    "message": "Forvalg lagret",
+    "message": "Forvalg lagret!",
     "description": "Message to show when settings are reset to defaults."
   }
 }
