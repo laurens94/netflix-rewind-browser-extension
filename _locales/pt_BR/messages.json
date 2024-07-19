@@ -1,0 +1,118 @@
+{
+  "extensionName": {
+    "message": "Retrocesso Netflix 1 segundo",
+    "description": "Name of the extension."
+  },
+  "extensionDescription": {
+    "message": "Pesquise o vídeo com uma quantidade x de segundos (ajustável)",
+    "description": "Description of the extension."
+  },
+  "optionsTitle": {
+    "message": "Opções para $EXTENSIONNAME$",
+    "description": "Title of the options page.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsKeyboardControlsRewind": {
+    "message": "Use $BTN1$ (ou $BTN2$) para retroceder em $SECONDS$ segundos",
+    "description": "Description for the keyboard controls to rewind.",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd>&lt;</kbd>"
+      },
+      "btn2": {
+        "content": "<kbd>,</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-rewind-sec>1</span>"
+      }
+    }
+  },
+  "optionsCustomizationIntroduction": {
+    "message": "Você pode alterar a quantidade de segundos para retroceder ou avançar.",
+    "description": "Introduction to the customization section."
+  },
+  "optionsNoteNetflixDefaults": {
+    "message": "Nota: o valor padrão no Netflix é 10 segundos.",
+    "description": "Note about the default value on Netflix."
+  },
+  "optionsSave": {
+    "message": "Salvar",
+    "description": "Button to save settings."
+  },
+  "optionsSourceCode": {
+    "message": "Código fonte",
+    "description": "Link to the source code."
+  },
+  "debugPluginLoaded": {
+    "message": "Plug-in '$EXTENSIONNAME$' carregado.",
+    "description": "Debug message when plugin is loaded.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "debugCouldNotLoadSettings": {
+    "message": "Não foi possível carregar as configurações de $EXTENSIONNAME$, retornando aos padrões…",
+    "description": "Debug message when settings could not be loaded and defaults are loaded instead.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsKeyboardControlsForward": {
+    "message": "Use $BTN1$ (ou $BTN2$) para avançar com $SECONDS$ segundos",
+    "description": "Description for the keyboard controls to seek forward.",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd>&gt;</kbd>"
+      },
+      "btn2": {
+        "content": "<kbd>.</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-forward-sec>5</span>"
+      }
+    }
+  },
+  "optionsRewindSeconds": {
+    "message": "Retroceder segundos",
+    "description": "Label for the rewind seconds setting."
+  },
+  "optionsResetToDefaults": {
+    "message": "Redefinir para os padrões",
+    "description": "Button to reset settings to defaults."
+  },
+  "optionsReportIssue": {
+    "message": "Informar problema",
+    "description": "Link to report an issue."
+  },
+  "optionsDonate": {
+    "message": "Compre-me um café",
+    "description": "Link to donate."
+  },
+  "optionsForwardSeconds": {
+    "message": "Avançar segundos",
+    "description": "Label for the forward seconds setting."
+  },
+  "optionsDefaultsSaved": {
+    "message": "Padrões salvos!",
+    "description": "Message to show when settings are reset to defaults."
+  },
+  "optionsSaved": {
+    "message": "Salvou!",
+    "description": "Message to show when settings are saved."
+  },
+  "optionsRequestFeature": {
+    "message": "Recurso de solicitação",
+    "description": "Link to request a feature."
+  }
+}
