@@ -1,3 +1,7 @@
+:root {
+  color-scheme: light dark;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,7 +15,7 @@ body {
 
 #wrapper {
   max-width: 40rem;
-  margin: 2.5em auto;
+  margin: 1em auto;
 }
 
 p {
@@ -26,14 +30,13 @@ p {
 }
 
 kbd {
-  background-color: #eee;
-  border: 1px solid #ccc;
+  background-color: light-dark(#eee, rgb(50, 50, 50));
+  border: 1px solid light-dark(#ccc, rgb(80, 80, 80));
   border-radius: 0.5em;
   padding: 0.2em 0.5em;
   font-size: 0.9em;
   font-family: monospace;
   margin: 0 0.2em;
-  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   white-space: nowrap;
 }
 
@@ -41,7 +44,7 @@ a {
   text-decoration: none;
   padding: .5em;
   display: inline-block;
-  color: rgb(108, 128, 144);
+  color: light-dark(rgb(108, 128, 144), rgb(129, 165, 255));
   border-radius: 0.5em;
 }
 
@@ -50,12 +53,12 @@ a span {
 }
 
 a:hover {
-  background-color: black;
-  color: white;
+  background-color: light-dark(black, white);
+  color: light-dark(white, black);
 }
 
 fieldset {
-  border: 1px solid #ccc;
+  border: 1px solid light-dark(#ccc, rgb(80, 80, 90));
   padding: 1em;
   border-radius: 0.5em;
 }
@@ -73,11 +76,14 @@ label {
   grid-column: span 1;
 }
 
+input, button {
+  border: 1px solid light-dark(#ccc, rgb(80, 80, 90));
+}
+
 input {
   display: block;
   padding: 0.5em;
   width: 100%;
-  border: 1px solid #ccc;
   border-radius: 0.5em;
   font-size: 1.2em;
 }
@@ -85,15 +91,15 @@ input {
 button {
   grid-column: span 1;
   padding: 0.5em;
-  border: 1px solid #ccc;
   border-radius: 0.5em;
 }
 
 button#save {
   color: white;
-  background-color: rgb(51, 51, 51);
+  background-color: light-dark(rgb(51, 51, 51), rgb(100,100,200));
 }
 
 button#save:hover {
-  background-color: black;
+  background-color: light-dark(black, white);
+  color: light-dark(white, black);
 }
