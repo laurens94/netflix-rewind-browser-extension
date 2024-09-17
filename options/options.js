@@ -4,6 +4,7 @@ const i18nData = {
   optionsKeyboardControlsForward: browser.i18n.getMessage("optionsKeyboardControlsForward"),
   optionsCustomizationIntroduction: browser.i18n.getMessage("optionsCustomizationIntroduction"),
   optionsNoteNetflixDefaults: browser.i18n.getMessage("optionsNoteNetflixDefaults"),
+  optionsPermissionError: browser.i18n.getMessage("optionsPermissionError"),
   optionsForwardSeconds: browser.i18n.getMessage("optionsForwardSeconds"),
   optionsRewindSeconds: browser.i18n.getMessage("optionsRewindSeconds"),
   optionsResetToDefaults: browser.i18n.getMessage("optionsResetToDefaults"),
@@ -23,6 +24,28 @@ const defaults = {
   rewindSec: 1,
   seekForwardSec: 5
 };
+
+function setPermission(hasPermission) {
+  document.getElementById('permission-error').style.display = hasPermission ? 'none' : 'block';
+}
+
+function checkPermission() {
+  browser.permissions.contains({
+    origins: ["*://www.netflix.com/*"]
+  }, (_hasPermission) => {
+    setPermission(_hasPermission);
+    if (!_hasPermission) {
+      browser.permissions.request({
+        origins: ["*://www.netflix.com/*"]
+      }, (granted) => {
+        setPermission(granted);
+      });
+      setTimeout(checkPermission, 2000);
+    }
+  });
+}
+
+checkPermission();
 
 function replaceTemplate(id, data) {
   if (document.getElementById(id) === null) return;

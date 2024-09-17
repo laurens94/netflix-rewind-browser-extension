@@ -75,6 +75,10 @@
     "message": "Note: the default value on Netflix is 10 seconds.",
     "description": "Note about the default value on Netflix."
   },
+  "optionsPermissionError": {
+    "message": "The extension needs permission to access the Netflix.com domain.<br>Please grant permission in the browser settings.",
+    "description": "Error message when the extension needs permission to access the Netflix.com domain."
+  },
   "optionsForwardSeconds": {
     "message": "Forward seconds",
     "description": "Label for the forward seconds setting."

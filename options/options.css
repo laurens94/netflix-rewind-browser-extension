@@ -19,6 +19,18 @@ body {
   margin: 1em auto;
 }
 
+#permission-error {
+  color: red;
+  display: none;
+  margin: 0 0 2em;
+  padding: 1em;
+  border: 1px solid red;
+  border-radius: 0.5em;
+  background-color: light-dark(rgb(255, 220, 220), rgb(255, 220, 220));
+  text-align: center;
+  font-weight: bold;
+}
+
 p {
   margin: .5em 0 2em;
 }
