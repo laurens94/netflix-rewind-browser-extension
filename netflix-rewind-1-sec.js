@@ -7,8 +7,11 @@
 
   const config = {
     rewindSec: params.get('rewindSec'),
-    seekForwardSec: params.get('seekForwardSec')
+    seekForwardSec: params.get('seekForwardSec'),
+    keyObjects: JSON.parse(params.get('keyObjects'))
   };
+
+  console.debug(`🔧 ${extensionName} config`, config);
 
   let playerElement = undefined;
 
@@ -27,17 +30,24 @@
 
     if (playerElement) {
       let currentTime = playerElement.getCurrentTime();
-      switch (e.key) {
-        case '<':
-        case ',':
-          console.debug(`⏪ Seeking backwards by ${config.rewindSec} second${config.rewindSec > 1 ? 's' : ''}`);
-          playerElement.seek(currentTime - config.rewindSec * 1000)
-          break;
-        case '>':
-        case '.':
-          console.debug(`⏩ Seeking forwards by ${config.seekForwardSec} second${config.seekForwardSec > 1 ? 's' : ''}`);
-          playerElement.seek(currentTime + config.seekForwardSec * 1000)
-          break;
+      console.log(e.code, e.shiftKey, e.ctrlKey, e.altKey, e.metaKey, config.keyObjects.rewind);
+
+      if (e.code === config.keyObjects.rewind.code &&
+        e.shiftKey === config.keyObjects.rewind.shiftKey &&
+        e.ctrlKey === config.keyObjects.rewind.ctrlKey &&
+        e.altKey === config.keyObjects.rewind.altKey &&
+        e.metaKey === config.keyObjects.rewind.metaKey) {
+
+        console.debug(`⏪ Seeking backwards by ${config.rewindSec} second${config.rewindSec > 1 ? 's' : ''}`);
+        playerElement.seek(currentTime - config.rewindSec * 1000)
+      } else if (e.code === config.keyObjects.forward.code &&
+        e.shiftKey === config.keyObjects.forward.shiftKey &&
+        e.ctrlKey === config.keyObjects.forward.ctrlKey &&
+        e.altKey === config.keyObjects.forward.altKey &&
+        e.metaKey === config.keyObjects.forward.metaKey) {
+
+        console.debug(`⏩ Seeking forwards by ${config.seekForwardSec} second${config.seekForwardSec > 1 ? 's' : ''}`);
+        playerElement.seek(currentTime + config.seekForwardSec * 1000)
       }
     } else {
       console.debug(`No active player element found`);

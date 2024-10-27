@@ -1,13 +1,10 @@
 {
   "optionsKeyboardControlsRewind": {
-    "message": "$BTN1$(또는 $BTN2$)를 사용하여 $SECONDS$초로 되감기",
+    "message": "$BTN1$를 사용하여 $SECONDS$초로 되감기",
     "description": "Description for the keyboard controls to rewind.",
     "placeholders": {
       "btn1": {
-        "content": "<kbd>&lt;</kbd>"
-      },
-      "btn2": {
-        "content": "<kbd>,</kbd>"
+        "content": "<kbd data-rewind-btn>&lt;</kbd>"
       },
       "seconds": {
         "content": "<span data-rewind-sec>1</span>"
@@ -47,14 +44,11 @@
     "description": "Name of the extension."
   },
   "optionsKeyboardControlsForward": {
-    "message": "$BTN1$(또는 $BTN2$)를 사용하여 $SECONDS$초로 앞으로 감기",
+    "message": "$BTN1$를 사용하여 $SECONDS$초로 앞으로 감기",
     "description": "Description for the keyboard controls to seek forward.",
     "placeholders": {
       "btn1": {
-        "content": "<kbd>&gt;</kbd>"
-      },
-      "btn2": {
-        "content": "<kbd>.</kbd>"
+        "content": "<kbd data-forward-btn>&gt;</kbd>"
       },
       "seconds": {
         "content": "<span data-forward-sec>5</span>"

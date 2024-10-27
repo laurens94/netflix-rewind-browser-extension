@@ -18,14 +18,11 @@
     }
   },
   "optionsKeyboardControlsRewind": {
-    "message": "Gebruik $BTN1$ (of $BTN2$) om met $SECONDS$ seconden terug te spoelen",
+    "message": "Gebruik $BTN1$ om met $SECONDS$ seconden terug te spoelen",
     "description": "Description for the keyboard controls to rewind.",
     "placeholders": {
       "btn1": {
-        "content": "<kbd>&lt;</kbd>"
-      },
-      "btn2": {
-        "content": "<kbd>,</kbd>"
+        "content": "<kbd data-rewind-btn>&lt;</kbd>"
       },
       "seconds": {
         "content": "<span data-rewind-sec>1</span>"
@@ -33,14 +30,11 @@
     }
   },
   "optionsKeyboardControlsForward": {
-    "message": "Gebruik $BTN1$ (of $BTN2$) om met $SECONDS$ seconden vooruit te spoelen",
+    "message": "Gebruik $BTN1$ om met $SECONDS$ seconden vooruit te spoelen",
     "description": "Description for the keyboard controls to seek forward.",
     "placeholders": {
       "btn1": {
-        "content": "<kbd>&gt;</kbd>"
-      },
-      "btn2": {
-        "content": "<kbd>.</kbd>"
+        "content": "<kbd data-forward-btn>&gt;</kbd>"
       },
       "seconds": {
         "content": "<span data-forward-sec>5</span>"

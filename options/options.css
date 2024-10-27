@@ -59,15 +59,15 @@ a {
   display: inline-block;
   color: light-dark(rgb(108, 128, 144), rgb(129, 165, 255));
   border-radius: 0.5em;
-}
 
-a span {
-  white-space: nowrap;
-}
+  span {
+    white-space: nowrap;
+  }
 
-a:hover {
-  background-color: light-dark(black, white);
-  color: light-dark(white, black);
+  &:hover {
+    background-color: light-dark(black, white);
+    color: light-dark(white, black);
+  }
 }
 
 fieldset {
@@ -105,14 +105,14 @@ button {
   grid-column: span 1;
   padding: 0.5em;
   border-radius: 0.5em;
-}
 
-button#save {
-  color: white;
-  background-color: light-dark(rgb(51, 51, 51), rgb(100,100,200));
-}
+  &#save {
+    color: white;
+    background-color: light-dark(rgb(51, 51, 51), rgb(100,100,200));
 
-button#save:hover {
-  background-color: light-dark(black, white);
-  color: light-dark(white, black);
+    &:hover {
+      background-color: light-dark(black, white);
+      color: light-dark(white, black);
+    }
+  }
 }

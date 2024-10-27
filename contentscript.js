@@ -2,7 +2,25 @@
 (function () {
   const settings = {
     rewindSec: 1,
-    seekForwardSec: 5
+    seekForwardSec: 5,
+    keyObjects: JSON.stringify({
+      rewind: {
+        key: ",",
+        code: "Comma",
+        shiftKey: false,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
+      forward: {
+        key: ".",
+        code: "Period",
+        shiftKey: false,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      }
+    })
   }
 
   function onError(error) {
@@ -32,6 +50,9 @@
     }
     if (item.seekForwardSec > 0) {
       settings.seekForwardSec = item.seekForwardSec;
+    }
+    if (item.keyObjects) {
+      settings.keyObjects = JSON.stringify(item.keyObjects);
     }
     inject()
   }

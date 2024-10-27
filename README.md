@@ -18,7 +18,7 @@ _I made this extension because it annoys me that the default is 10 seconds._
 - Use <kbd><</kbd> or <kbd>,</kbd> to rewind with 1 second
 - Use <kbd>></kbd> or <kbd>.</kbd> to seek forward with 5 seconds
 
-🛠️ It's also possible to change the amount of seconds using the Options page of this extension.
+🛠️ It's also possible to change the amount of seconds or which keys to press using the Options page of this extension.
 
 ## 🫶 Contributing
 

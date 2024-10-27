@@ -1,13 +1,10 @@
 {
   "optionsKeyboardControlsRewind": {
-    "message": "Bruk $BTN1$ (eller $BTN2$) for å spole $SECONDS$ skunder tilbake",
+    "message": "Bruk $BTN1$ for å spole $SECONDS$ skunder tilbake",
     "description": "Description for the keyboard controls to rewind.",
     "placeholders": {
       "btn1": {
-        "content": "<kbd>&lt;</kbd>"
-      },
-      "btn2": {
-        "content": "<kbd>,</kbd>"
+        "content": "<kbd data-rewind-btn>&lt;</kbd>"
       },
       "seconds": {
         "content": "<span data-rewind-sec>1</span>"
@@ -47,14 +44,11 @@
     "description": "Name of the extension."
   },
   "optionsKeyboardControlsForward": {
-    "message": "Bruk$BTN1$ (eller $BTN2$) for å blafre $SECONDS$ sekunder forover",
+    "message": "Bruk $BTN1$ for å blafre $SECONDS$ sekunder forover",
     "description": "Description for the keyboard controls to seek forward.",
     "placeholders": {
       "btn1": {
-        "content": "<kbd>&gt;</kbd>"
-      },
-      "btn2": {
-        "content": "<kbd>.</kbd>"
+        "content": "<kbd data-forward-btn>&gt;</kbd>"
       },
       "seconds": {
         "content": "<span data-forward-sec>5</span>"
