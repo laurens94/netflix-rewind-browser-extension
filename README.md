@@ -34,9 +34,11 @@ Please feel free to contribute by sending a Pull Request.
 You can either use `npm` or `pnpm` with the commands below or run `web-ext` directly:
 
 #### Running the extension
+
 `pnpx web-ext run`
 
 #### Building
+
 `pnpx web-ext build`
 
 #### Reference
