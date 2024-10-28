@@ -42,11 +42,11 @@
     }
   },
   "optionsCustomizationIntroduction": {
-    "message": "Je kunt het aantal seconden om terug of vooruit te spoelen aanpassen.",
+    "message": "Je kunt het aantal seconden en de sneltoetsen om terug of vooruit te spoelen aanpassen.",
     "description": "Introduction to the customization section."
   },
   "optionsNoteNetflixDefaults": {
-    "message": "Opmerking: de standaard instelling op Netflix is 10 seconden.",
+    "message": "De standaard instelling op Netflix is 10 seconden.",
     "description": "Note about the default value on Netflix."
   },
   "optionsForwardSeconds": {
