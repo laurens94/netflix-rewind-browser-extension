@@ -11,6 +11,9 @@
 body {
   font-family: sans-serif;
   line-height: 1.5;
+  font-size: .9rem;
+  padding: 0 1em;
+  color: light-dark(rgb(30, 30, 30), rgb(220, 220, 220));
 }
 
 #wrapper {
@@ -32,14 +35,25 @@ body {
 }
 
 p {
-  margin: .5em 0 2em;
+  margin: .5em 0 1.5rem;
+  text-wrap: pretty;
 }
 
 .footer {
   margin-top: 1em;
   text-align: center;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: .5rem;
+
+  a {
+    flex: 1 1 auto;
+  }
+}
+
+h1 {
+  text-wrap: balance;
+  font-size: 1.2rem;
 }
 
 kbd {
@@ -47,7 +61,7 @@ kbd {
   border: 1px solid light-dark(#ccc, rgb(80, 80, 80));
   border-radius: 0.5em;
   padding: 0.2em 0.5em;
-  font-size: 0.9em;
+  font-size: 0.85em;
   font-family: monospace;
   margin: 0 0.2em;
   white-space: nowrap;
@@ -59,6 +73,7 @@ a {
   display: inline-block;
   color: light-dark(rgb(108, 128, 144), rgb(129, 165, 255));
   border-radius: 0.5em;
+  border: 1px solid light-dark(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
 
   span {
     white-space: nowrap;
@@ -71,7 +86,7 @@ a {
 }
 
 fieldset {
-  border: 1px solid light-dark(#ccc, rgb(80, 80, 90));
+  border: 1px solid light-dark(rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.1));
   padding: 1em;
   border-radius: 0.5em;
 }
@@ -79,9 +94,13 @@ fieldset {
 form {
   display: grid;
   flex-wrap: wrap;
-  gap: 2.5em;
+  gap: .5rem 1.5rem;
   justify-content: space-between;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+
+.defaults-note {
+  grid-column: 1 / -1;
 }
 
 label {
@@ -98,13 +117,15 @@ input {
   padding: 0.5em;
   width: 100%;
   border-radius: 0.5em;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 button {
   grid-column: span 1;
   padding: 0.5em;
+  font-size: 1em;
   border-radius: 0.5em;
+  min-height: 2.5em;
 
   &#save {
     color: white;
