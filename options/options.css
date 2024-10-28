@@ -115,4 +115,9 @@ button {
       color: light-dark(white, black);
     }
   }
+
+  &#request-permission-btn {
+    display: block;
+    margin: 1em auto 0;
+  }
 }

@@ -73,6 +73,10 @@
     "message": "The extension needs permission to access the Netflix.com domain.<br>Please grant permission in the browser settings.",
     "description": "Error message when the extension needs permission to access the Netflix.com domain."
   },
+  "optionsRequestPermission": {
+    "message": "Request permission",
+    "description": "Button to request permission."
+  },
   "optionsForwardSeconds": {
     "message": "Forward seconds",
     "description": "Label for the forward seconds setting."

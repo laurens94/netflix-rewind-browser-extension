@@ -5,6 +5,7 @@ const i18nData = {
   optionsCustomizationIntroduction: browser.i18n.getMessage("optionsCustomizationIntroduction"),
   optionsNoteNetflixDefaults: browser.i18n.getMessage("optionsNoteNetflixDefaults"),
   optionsPermissionError: browser.i18n.getMessage("optionsPermissionError"),
+  optionsRequestPermission: browser.i18n.getMessage("optionsRequestPermission"),
   optionsForwardSeconds: browser.i18n.getMessage("optionsForwardSeconds"),
   optionsRewindSeconds: browser.i18n.getMessage("optionsRewindSeconds"),
   optionsRewindKey: browser.i18n.getMessage("optionsRewindKey"),
@@ -52,19 +53,26 @@ const keyObjects = {
 
 function setPermission(hasPermission) {
   document.getElementById('permission-error').style.display = hasPermission ? 'none' : 'block';
+
+  if (!hasPermission) {
+    document.getElementById('request-permission-btn').addEventListener('click', requestPermission);
+  }
+}
+
+function requestPermission() {
+  browser.permissions.request({
+    origins: ["*://www.netflix.com/*"]
+  }).then((granted) => {
+    setPermission(granted);
+  })
 }
 
 function checkPermission() {
   browser.permissions.contains({
     origins: ["*://www.netflix.com/*"]
-  }, (_hasPermission) => {
+  }).then((_hasPermission) => {
     setPermission(_hasPermission);
     if (!_hasPermission) {
-      browser.permissions.request({
-        origins: ["*://www.netflix.com/*"]
-      }, (granted) => {
-        setPermission(granted);
-      });
       setTimeout(checkPermission, 2000);
     }
   });
