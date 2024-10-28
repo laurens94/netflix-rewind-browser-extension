@@ -15,6 +15,7 @@ const i18nData = {
   optionsSave: browser.i18n.getMessage("optionsSave"),
   optionsSaved: browser.i18n.getMessage("optionsSaved"),
   optionsSourceCode: browser.i18n.getMessage("optionsSourceCode"),
+  optionsTranslate: browser.i18n.getMessage("optionsTranslate"),
   optionsReportIssue: browser.i18n.getMessage("optionsReportIssue"),
   optionsRequestFeature: browser.i18n.getMessage("optionsRequestFeature"),
   optionsDonate: browser.i18n.getMessage("optionsDonate"),

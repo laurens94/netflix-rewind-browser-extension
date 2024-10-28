@@ -62,11 +62,11 @@
     }
   },
   "optionsCustomizationIntroduction": {
-    "message": "You can change the amount of seconds to rewind or seek forward.",
+    "message": "You can change the amount of seconds to rewind/seek forward, and modify the keys used.",
     "description": "Introduction to the customization section."
   },
   "optionsNoteNetflixDefaults": {
-    "message": "Note: the default value on Netflix is 10 seconds.",
+    "message": "The default seek value on Netflix is 10 seconds.",
     "description": "Note about the default value on Netflix."
   },
   "optionsPermissionError": {
@@ -112,6 +112,10 @@
   "optionsSourceCode": {
     "message": "Source code",
     "description": "Link to the source code."
+  },
+  "optionsTranslate": {
+    "message": "Help translate this extension",
+    "description": "Link to the translation page."
   },
   "optionsReportIssue": {
     "message": "Report issue",

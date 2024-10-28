@@ -31,8 +31,7 @@
       </p>
 
       <p>
-        %optionsCustomizationIntroduction%<br>
-        <i>%optionsNoteNetflixDefaults%</i>
+        %optionsCustomizationIntroduction%
       </p>
 
       <form action="options.html" method="post">
@@ -43,6 +42,10 @@
         <label for="forward-seconds">%optionsForwardSeconds%
           <input type="number" name="forward-seconds" id="forward-seconds" value="5" min="1">
         </label>
+
+        <p class="defaults-note">
+          <i>%optionsNoteNetflixDefaults%</i>
+        </p>
 
         <label for="rewind-key">%optionsRewindKey%
           <input type="text" name="rewind-key" id="rewind-key" value="[Comma]">
@@ -58,11 +61,13 @@
     </fieldset>
 
     <div class="footer">
+      <a href="https://hosted.weblate.org/engage/netflix-rewind-browser-extension/" target="_blank"
+        rel="noopener noreferrer">🌐 %optionsTranslate%</a>
       <a href="https://github.com/laurens94/netflix-rewind-browser-extension" target="_blank"
         rel="noopener noreferrer">👨‍💻 %optionsSourceCode%</a>
       <a href="https://github.com/laurens94/netflix-rewind-browser-extension/issues/new" target="_blank"
         rel="noopener noreferrer"><span>🐛 %optionsReportIssue%</span> &nbsp; <span>✨ %optionsRequestFeature%</span></a>
-      <a href="https://ko-fi.com/lauwerens" target="_blank" rel="noopener noreferrer">☕ %optionsDonate% 🫶</a>
+      <a href="https://ko-fi.com/lauwerens" target="_blank" rel="noopener noreferrer">☕ %optionsDonate% ♥️</a>
     </div>
   </div>
 </body>
