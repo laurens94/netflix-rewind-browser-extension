@@ -1,1 +1,108 @@
-{}
+{
+  "extensionName": {
+    "message": "Netflix Rewind 1 sec"
+  },
+  "optionsPermissionError": {
+    "message": "此擴充功能需要權限以存取 Netflix.com 網域。<br>請在瀏覽器設定中給予權限。"
+  },
+  "optionsForwardKey": {
+    "message": "快進鍵"
+  },
+  "extensionDescription": {
+    "message": "以X秒（可調整）來快進或倒退影片"
+  },
+  "optionsTitle": {
+    "message": "$EXTENSIONNAME$ 的選項",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsKeyboardControlsForward": {
+    "message": "使用 $BTN1$ 快進 $SECONDS$ 秒",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd data-forward-btn>&gt;</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-forward-sec>5</span>"
+      }
+    }
+  },
+  "optionsCustomizationIntroduction": {
+    "message": "您可以更改倒退/快進的秒數，並修改使用的按鍵。"
+  },
+  "optionsNoteNetflixDefaults": {
+    "message": "Netflix 的預設快進/倒退時間為 10 秒。"
+  },
+  "optionsForwardSeconds": {
+    "message": "快進秒數"
+  },
+  "optionsRewindKey": {
+    "message": "倒退鍵"
+  },
+  "optionsSaved": {
+    "message": "保存成功！"
+  },
+  "optionsDefaultsSaved": {
+    "message": "已更改為預設值！"
+  },
+  "optionsSourceCode": {
+    "message": "Source code"
+  },
+  "optionsTranslate": {
+    "message": "協助翻譯這個擴充功能"
+  },
+  "optionsRequestFeature": {
+    "message": "建議功能"
+  },
+  "optionsDonate": {
+    "message": "贊助我一杯咖啡"
+  },
+  "optionsRewindSeconds": {
+    "message": "倒退秒數"
+  },
+  "debugPluginLoaded": {
+    "message": "$EXTENSIONNAME$ 已載入。",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "debugCouldNotLoadSettings": {
+    "message": "無法載入 $EXTENSIONNAME$ 的設定，已回復為預設值…",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsKeyboardControlsRewind": {
+    "message": "使用 $BTN1$ 倒退 $SECONDS$ 秒",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd data-rewind-btn>&lt;</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-rewind-sec>1</span>"
+      }
+    }
+  },
+  "optionsRequestPermission": {
+    "message": "請求授權"
+  },
+  "optionsResetToDefaults": {
+    "message": "重設為預設值"
+  },
+  "optionsSave": {
+    "message": "保存"
+  },
+  "optionsReportIssue": {
+    "message": "回報問題"
+  }
+}
