@@ -1,6 +1,6 @@
 {
   "extensionName": {
-    "message": "Netflix Rewind 1 sec"
+    "message": "Netflix 進退1秒"
   },
   "optionsPermissionError": {
     "message": "此擴充功能需要權限以存取 Netflix.com 網域。<br>請在瀏覽器設定中給予權限。"
