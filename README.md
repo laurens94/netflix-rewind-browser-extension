@@ -37,9 +37,13 @@ You can either use `npm` or `pnpm` with the commands below or run `web-ext` dire
 
 `pnpx web-ext run`
 
-#### Building
+#### Building for Firefox
 
 `pnpx web-ext build`
+
+#### Building for Chrome
+
+Pack the extension as a `.zip` file and upload it to the Chrome Web Store.
 
 #### Reference
 
