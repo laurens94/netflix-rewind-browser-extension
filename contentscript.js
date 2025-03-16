@@ -3,6 +3,8 @@
   const settings = {
     rewindSec: 1,
     seekForwardSec: 5,
+    rewindSecondarySec: 10,
+    seekForwardSecondarySec: 10,
     keyObjects: JSON.stringify({
       rewind: {
         key: ",",
@@ -19,7 +21,47 @@
         ctrlKey: false,
         altKey: false,
         metaKey: false
-      }
+      },
+      rewindSecondary: {
+        key: "j",
+        code: "KeyJ",
+        shiftKey: false,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
+      forwardSecondary: {
+        key: "l",
+        code: "KeyL",
+        shiftKey: false,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
+      pause: {
+        key: "k",
+        code: "KeyK",
+        shiftKey: false,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
+      speedUp: {
+        key: ">",
+        code: "Period",
+        shiftKey: true,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
+      speedDown: {
+        key: "<",
+        code: "Comma",
+        shiftKey: true,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
     })
   }
 
@@ -52,7 +94,10 @@
       settings.seekForwardSec = item.seekForwardSec;
     }
     if (item.keyObjects) {
-      settings.keyObjects = JSON.stringify(item.keyObjects);
+      const currentSettings = JSON.parse(settings.keyObjects);
+      currentSettings.rewind = item.keyObjects.rewind;
+      currentSettings.forward = item.keyObjects.forward;
+      settings.keyObjects = JSON.stringify(currentSettings);
     }
     inject()
   }
