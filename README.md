@@ -21,7 +21,7 @@ The following are key bindings to control custom rewind and fast forward duratio
 Additionally, the following YouTube-style keybindings are implemented:
 - Use <kbd>j</kbd> to rewind 10 seconds
 - Use <kbd>l</kbd> to fast forward 10 seconds
-- Use <kbd>k</kbd> to pause
+- Use <kbd>k</kbd> to toggle pause/play
 - Use <kbd><</kbd> to decrease the playback speed
 - Use <kbd>></kbd> to increase the playback speed
 

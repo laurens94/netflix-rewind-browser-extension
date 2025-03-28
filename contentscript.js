@@ -1,5 +1,9 @@
 ;
 (function () {
+  /**
+   * Default settings
+   * Make sure this is in sync with the defaults in options.js
+   */
   const settings = {
     rewindSec: 1,
     seekForwardSec: 5,
@@ -38,7 +42,7 @@
         altKey: false,
         metaKey: false
       },
-      pause: {
+      togglePause: {
         key: "k",
         code: "KeyK",
         shiftKey: false,
@@ -94,10 +98,7 @@
       settings.seekForwardSec = item.seekForwardSec;
     }
     if (item.keyObjects) {
-      const currentSettings = JSON.parse(settings.keyObjects);
-      currentSettings.rewind = item.keyObjects.rewind;
-      currentSettings.forward = item.keyObjects.forward;
-      settings.keyObjects = JSON.stringify(currentSettings);
+      settings.keyObjects = JSON.stringify(item.keyObjects);
     }
     inject()
   }

@@ -14,7 +14,6 @@
   };
 
   console.debug(`🔧 ${extensionName} config`, config);
-  console.debug('Netflix-rewind: Parsed keyObjects:', config.keyObjects);
 
   let playerElement = undefined;
 
@@ -35,7 +34,6 @@
       let currentTime = playerElement.getCurrentTime();
       let isPaused = playerElement.isPaused();
       let playbackRate = playerElement.getPlaybackRate();
-      console.log(e.code, e.shiftKey, e.ctrlKey, e.altKey, e.metaKey, config.keyObjects.rewind);
 
       if (e.code === config.keyObjects.rewind.code &&
         e.shiftKey === config.keyObjects.rewind.shiftKey &&
@@ -69,11 +67,11 @@
 
         console.debug(`⏪ Seeking backwards by ${config.rewindSecondarySec} second${config.rewindSecondarySec > 1 ? 's' : ''}`);
         playerElement.seek(currentTime - config.rewindSecondarySec * 1000)
-      } else if (e.code === config.keyObjects.pause.code &&
-        e.shiftKey === config.keyObjects.pause.shiftKey &&
-        e.ctrlKey === config.keyObjects.pause.ctrlKey &&
-        e.altKey === config.keyObjects.pause.altKey &&
-        e.metaKey === config.keyObjects.pause.metaKey) {
+      } else if (e.code === config.keyObjects.togglePause.code &&
+        e.shiftKey === config.keyObjects.togglePause.shiftKey &&
+        e.ctrlKey === config.keyObjects.togglePause.ctrlKey &&
+        e.altKey === config.keyObjects.togglePause.altKey &&
+        e.metaKey === config.keyObjects.togglePause.metaKey) {
 
         console.debug(`⏸️ Toggling play/pause`);
         if (isPaused) {
@@ -88,7 +86,7 @@
         e.metaKey === config.keyObjects.speedUp.metaKey) {
 
         let updatedRate = Math.min(playbackRate + 0.25, 1.5);
-        console.debug(`▶️ Increasing playback speed to ${updatedRate}x`);
+        console.debug(`⏩ Increasing playback speed to ${updatedRate}x`);
         playerElement.setPlaybackRate(updatedRate);
       } else if (e.code === config.keyObjects.speedDown.code &&
         e.shiftKey === config.keyObjects.speedDown.shiftKey &&
