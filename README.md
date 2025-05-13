@@ -8,7 +8,7 @@
 [![GitHub License](https://img.shields.io/github/license/laurens94/netflix-rewind-browser-extension)](https://github.com/laurens94/netflix-rewind-browser-extension/blob/master/LICENSE)
 [![Translation status](https://hosted.weblate.org/widget/netflix-rewind-browser-extension/svg-badge.svg)](https://hosted.weblate.org/engage/netflix-rewind-browser-extension/)
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L3L0BR8QG)
+<a href='https://ko-fi.com/L3L0BR8QG' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://storage.ko-fi.com/cdn/kofi1.png?v=6' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 # Netflix Rewind 1 sec
 **A [Firefox](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/) and [Chrome](https://chrome.google.com/webstore/detail/netflix-rewind-1-sec/inpbafoldolmpeiebppjbckdpnkkhlej) extension that allows you to rewind the video for 1 second each time you press the <kbd><</kbd> key.**
