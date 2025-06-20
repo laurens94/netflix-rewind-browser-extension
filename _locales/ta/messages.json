@@ -6,7 +6,7 @@
     "message": "ஃச் அளவு விநாடிகளுடன் வீடியோ மூலம் தேடுங்கள் (சரிசெய்யக்கூடியது)"
   },
   "debugPluginLoaded": {
-    "message": "'$ ExtenstyName $' சொருகி ஏற்றப்பட்டது.",
+    "message": "$EXTENSIONNAME$ சொருகி ஏற்றப்பட்டது.",
     "placeholders": {
       "extensionname": {
         "content": "$1",
@@ -15,7 +15,7 @@
     }
   },
   "debugCouldNotLoadSettings": {
-    "message": "Extenss extentsyName $ க்கான அமைப்புகளை ஏற்ற முடியவில்லை, இயல்புநிலைகளுக்கு திரும்பும்…",
+    "message": "$EXTENSIONNAME$ க்கான அமைப்புகளை ஏற்ற முடியவில்லை, இயல்புநிலைகளுக்கு திரும்பும்…",
     "placeholders": {
       "extensionname": {
         "content": "$1",
@@ -24,7 +24,7 @@
     }
   },
   "optionsTitle": {
-    "message": "$ ExtanityName க்கான விருப்பங்கள் $",
+    "message": "$EXTENSIONNAME$ க்கான விருப்பங்கள்",
     "placeholders": {
       "extensionname": {
         "content": "$1",
@@ -33,7 +33,7 @@
     }
   },
   "optionsKeyboardControlsRewind": {
-    "message": "$ வினாடிகள் $ வினாடிகளுடன் முன்னாடி வைக்க $ BTN1 $ ஐப் பயன்படுத்தவும்",
+    "message": "$SECONDS$ வினாடிகளுடன் முன்னாடி வைக்க $BTN1$ ஐப் பயன்படுத்தவும்",
     "placeholders": {
       "btn1": {
         "content": "<kbd data-rewind-btn>&lt;</kbd>"
@@ -44,7 +44,7 @@
     }
   },
   "optionsKeyboardControlsForward": {
-    "message": "$ வினாடிகள் $ வினாடிகளுடன் முன்னோக்கிச் செல்ல $ BTN1 $ ஐப் பயன்படுத்தவும்",
+    "message": "$SECONDS$ வினாடிகளுடன் முன்னோக்கிச் செல்ல $BTN1$ ஐப் பயன்படுத்தவும்",
     "placeholders": {
       "btn1": {
         "content": "<kbd data-forward-btn>&gt;</kbd>"
