@@ -14,11 +14,16 @@
 **A [Firefox](https://addons.mozilla.org/en-US/firefox/addon/netflix-rewind-1-sec/) and [Chrome](https://chrome.google.com/webstore/detail/netflix-rewind-1-sec/inpbafoldolmpeiebppjbckdpnkkhlej) extension that allows you to rewind the video for 1 second each time you press the <kbd><</kbd> key.**
 
 _I made this extension because it annoys me that the default is 10 seconds._
+The following are key bindings to control custom rewind and fast forward duration.  The duration and key bindings are adjustable in the Options page of this extension.
+- Use <kbd>,</kbd> to rewind with 1 second (can be changed in Options)
+- Use <kbd>.</kbd> to fast forward with 5 seconds (can be changed in Options)
 
-- Use <kbd><</kbd> or <kbd>,</kbd> to rewind with 1 second
-- Use <kbd>></kbd> or <kbd>.</kbd> to seek forward with 5 seconds
-
-🛠️ It's also possible to change the amount of seconds or which keys to press using the Options page of this extension.
+Additionally, the following YouTube-style keybindings are implemented:
+- Use <kbd>j</kbd> to rewind 10 seconds
+- Use <kbd>l</kbd> to fast forward 10 seconds
+- Use <kbd>k</kbd> to toggle pause/play
+- Use <kbd><</kbd> to decrease the playback speed
+- Use <kbd>></kbd> to increase the playback speed
 
 ## 🫶 Contributing
 
