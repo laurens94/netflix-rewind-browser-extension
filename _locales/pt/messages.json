@@ -1,1 +1,87 @@
-{}
+{
+  "extensionName": {
+    "message": "Retrocesso Netflix 1 segundo"
+  },
+  "extensionDescription": {
+    "message": "Pesquise o vídeo com uma quantidade x de segundos (ajustável)"
+  },
+  "debugPluginLoaded": {
+    "message": "Plug-in '$EXTENSIONNAME$' carregado.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "debugCouldNotLoadSettings": {
+    "message": "Não foi possível carregar as configurações de $EXTENSIONNAME$, retornando aos padrões…",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsTitle": {
+    "message": "Opções para $EXTENSIONNAME$",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsKeyboardControlsRewind": {
+    "message": "Use $BTN1$ para retroceder em $SECONDS$ segundos",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd data-rewind-btn>&lt;</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-rewind-sec>1</span>"
+      }
+    }
+  },
+  "optionsKeyboardControlsForward": {
+    "message": "Use $BTN1$ para avançar com $SECONDS$ segundos",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd data-forward-btn>&gt;</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-forward-sec>5</span>"
+      }
+    }
+  },
+  "optionsForwardSeconds": {
+    "message": "Avançar segundos"
+  },
+  "optionsRewindSeconds": {
+    "message": "Retroceder segundos"
+  },
+  "optionsResetToDefaults": {
+    "message": "Redefinir para as predefinições"
+  },
+  "optionsDefaultsSaved": {
+    "message": "Predefinições gravadas!"
+  },
+  "optionsSave": {
+    "message": "Gravar"
+  },
+  "optionsSaved": {
+    "message": "Gravou!"
+  },
+  "optionsSourceCode": {
+    "message": "Código fonte"
+  },
+  "optionsReportIssue": {
+    "message": "Informar problema"
+  },
+  "optionsRequestFeature": {
+    "message": "Recurso de solicitação"
+  },
+  "optionsDonate": {
+    "message": "Compre-me um café"
+  }
+}
