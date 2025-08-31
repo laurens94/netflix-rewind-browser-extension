@@ -1,0 +1,108 @@
+{
+  "extensionName": {
+    "message": "Netflix 1 sn Geri Sar"
+  },
+  "extensionDescription": {
+    "message": "Videoyu x saniye (ayarlanabilir) uzunluğunda sar"
+  },
+  "debugPluginLoaded": {
+    "message": "'$EXTENSIONNAME$' eklentisi yüklendi.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "debugCouldNotLoadSettings": {
+    "message": "$EXTENSIONNAME$ için ayarlar yüklenemedi, varsayılan ayarlara dönülüyor…",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsTitle": {
+    "message": "$EXTENSIONNAME$ ayarları",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsKeyboardControlsRewind": {
+    "message": "$BTN1$ kullanarak $SECONDS$ saniye geri sar",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd data-rewind-btn>&lt;</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-rewind-sec>1</span>"
+      }
+    }
+  },
+  "optionsKeyboardControlsForward": {
+    "message": "$BTN1$ kullanarak $SECONDS$ saniye ileri sar",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd data-forward-btn>&gt;</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-forward-sec>5</span>"
+      }
+    }
+  },
+  "optionsCustomizationIntroduction": {
+    "message": "Geri sarma/ileri sarma süresini saniye cinsinden değiştirebilir ve kullanılan tuşları değiştirebilirsiniz."
+  },
+  "optionsNoteNetflixDefaults": {
+    "message": "Netflix'te varsayılan sarma değeri 10 saniyedir."
+  },
+  "optionsPermissionError": {
+    "message": "Uzantının Netflix.com etki alanına erişmek için izin alması gerekir.<br>Lütfen tarayıcı ayarlarından izin verin."
+  },
+  "optionsRequestPermission": {
+    "message": "İzin iste"
+  },
+  "optionsForwardSeconds": {
+    "message": "İleri sarma saniyesi"
+  },
+  "optionsRewindSeconds": {
+    "message": "Geri sarma saniyesi"
+  },
+  "optionsRewindKey": {
+    "message": "Geri sarma tuşu"
+  },
+  "optionsForwardKey": {
+    "message": "İleri sarma tuşu"
+  },
+  "optionsResetToDefaults": {
+    "message": "Varsayılan ayarlara sıfırla"
+  },
+  "optionsDefaultsSaved": {
+    "message": "Varsayılanlar kaydedildi!"
+  },
+  "optionsSave": {
+    "message": "Kaydet"
+  },
+  "optionsSaved": {
+    "message": "Kaydedildi!"
+  },
+  "optionsSourceCode": {
+    "message": "Kaynak kodu"
+  },
+  "optionsTranslate": {
+    "message": "Bu uzantının çevirisine yardımcı olun"
+  },
+  "optionsReportIssue": {
+    "message": "Sorun bildir"
+  },
+  "optionsRequestFeature": {
+    "message": "Özellik talebi"
+  },
+  "optionsDonate": {
+    "message": "Bana bir kahve ısmarla"
+  }
+}
