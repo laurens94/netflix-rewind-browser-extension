@@ -24,9 +24,15 @@ document.title = i18nData.optionsTitle;
 
 let infoMessageTimeout;
 
+/**
+ * Default settings
+ * Make sure this is in sync with the settings set in contentscript.js
+ */
 const defaults = {
   rewindSec: 1,
   seekForwardSec: 5,
+  rewindSecondarySec: 10,
+  seekForwardSecondarySec: 10,
   keyObjects: {
     rewind: {
       key: ",",
@@ -43,13 +49,58 @@ const defaults = {
       ctrlKey: false,
       altKey: false,
       metaKey: false
-    }
+    },
+    rewindSecondary: {
+      key: "j",
+      code: "KeyJ",
+      shiftKey: false,
+      ctrlKey: false,
+      altKey: false,
+      metaKey: false
+    },
+    forwardSecondary: {
+      key: "l",
+      code: "KeyL",
+      shiftKey: false,
+      ctrlKey: false,
+      altKey: false,
+      metaKey: false
+    },
+    togglePause: {
+      key: "k",
+      code: "KeyK",
+      shiftKey: false,
+      ctrlKey: false,
+      altKey: false,
+      metaKey: false
+    },
+    speedUp: {
+      key: ">",
+      code: "Period",
+      shiftKey: true,
+      ctrlKey: false,
+      altKey: false,
+      metaKey: false
+    },
+    speedDown: {
+      key: "<",
+      code: "Comma",
+      shiftKey: true,
+      ctrlKey: false,
+      altKey: false,
+      metaKey: false
+    },
   }
 };
 
 const keyObjects = {
   rewind: {},
-  forward: {}
+  forward: {},
+  rewindSecondary: {},
+  forwardSecondary: {},
+  togglePause: {},
+  speedUp: {},
+  speedDown: {},
 };
 
 function setPermission(hasPermission) {

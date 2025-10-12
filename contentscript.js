@@ -1,8 +1,14 @@
 ;
 (function () {
+  /**
+   * Default settings
+   * Make sure this is in sync with the defaults in options.js
+   */
   const settings = {
     rewindSec: 1,
     seekForwardSec: 5,
+    rewindSecondarySec: 10,
+    seekForwardSecondarySec: 10,
     keyObjects: JSON.stringify({
       rewind: {
         key: ",",
@@ -19,7 +25,47 @@
         ctrlKey: false,
         altKey: false,
         metaKey: false
-      }
+      },
+      rewindSecondary: {
+        key: "j",
+        code: "KeyJ",
+        shiftKey: false,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
+      forwardSecondary: {
+        key: "l",
+        code: "KeyL",
+        shiftKey: false,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
+      togglePause: {
+        key: "k",
+        code: "KeyK",
+        shiftKey: false,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
+      speedUp: {
+        key: ">",
+        code: "Period",
+        shiftKey: true,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
+      speedDown: {
+        key: "<",
+        code: "Comma",
+        shiftKey: true,
+        ctrlKey: false,
+        altKey: false,
+        metaKey: false
+      },
     })
   }
 
