@@ -1,1 +1,108 @@
-{}
+{
+  "extensionName": {
+    "message": "Netflix Перемотування назад 1 сек"
+  },
+  "extensionDescription": {
+    "message": "Перегортання відео протягом певної кількості секунд (регулюється)"
+  },
+  "debugPluginLoaded": {
+    "message": "'$EXTENSIONNAME$' плагін завантажено.",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "debugCouldNotLoadSettings": {
+    "message": "Не вдалося завантажити налаштування для $EXTENSIONNAME$, повертаємося до значень за замовчуванням…",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsTitle": {
+    "message": "Опції для $EXTENSIONNAME$",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsKeyboardControlsRewind": {
+    "message": "Використайте $BTN1$, щоб перемотати назад на $SECONDS$ секунд",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd data-rewind-btn>&lt;</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-rewind-sec>1</span>"
+      }
+    }
+  },
+  "optionsKeyboardControlsForward": {
+    "message": "Використайте $BTN1$ для перемотування вперед на $SECONDS$ секунд",
+    "placeholders": {
+      "btn1": {
+        "content": "<kbd data-forward-btn>&gt;</kbd>"
+      },
+      "seconds": {
+        "content": "<span data-forward-sec>5</span>"
+      }
+    }
+  },
+  "optionsCustomizationIntroduction": {
+    "message": "Ви можете змінити кількість секунд для перемотування назад/вперед, а також змінити використовувані клавіші."
+  },
+  "optionsNoteNetflixDefaults": {
+    "message": "Значення пошуку за замовчуванням на Netflix становить 10 секунд."
+  },
+  "optionsPermissionError": {
+    "message": "Розширенню потрібен дозвіл на доступ до домену Netflix.com.<br>Надайте дозвіл у налаштуваннях браузера."
+  },
+  "optionsRequestPermission": {
+    "message": "Запит дозволу"
+  },
+  "optionsForwardSeconds": {
+    "message": "Секунди вперед"
+  },
+  "optionsRewindSeconds": {
+    "message": "Перемотування секунд назад"
+  },
+  "optionsRewindKey": {
+    "message": "Клавіша перемотування назад"
+  },
+  "optionsForwardKey": {
+    "message": "Клавіша «Вперед»"
+  },
+  "optionsResetToDefaults": {
+    "message": "Скинути до налаштувань за замовчуванням"
+  },
+  "optionsDefaultsSaved": {
+    "message": "Налаштування за замовчуванням збережено!"
+  },
+  "optionsSave": {
+    "message": "Зберегти"
+  },
+  "optionsSaved": {
+    "message": "Збережено!"
+  },
+  "optionsSourceCode": {
+    "message": "Вихідний код"
+  },
+  "optionsTranslate": {
+    "message": "Допоможіть перекласти це розширення"
+  },
+  "optionsReportIssue": {
+    "message": "Повідомити про проблему"
+  },
+  "optionsRequestFeature": {
+    "message": "Запит на функцію"
+  },
+  "optionsDonate": {
+    "message": "Купи мені каву"
+  }
+}
