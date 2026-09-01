@@ -1,1 +1,32 @@
-{}
+{
+  "extensionName": {
+    "message": "Netflix 进退1秒"
+  },
+  "extensionDescription": {
+    "message": "以x秒（可调整）来快进或倒退视频"
+  },
+  "debugPluginLoaded": {
+    "message": "$EXTENSIONNAME$ 已加载。",
+    "placeholders": {
+      "extensionname": {
+        "content": "$1",
+        "example": "Netflix Rewind 1 sec"
+      }
+    }
+  },
+  "optionsSave": {
+    "message": "保存"
+  },
+  "optionsSaved": {
+    "message": "已保存！"
+  },
+  "optionsSourceCode": {
+    "message": "源代码"
+  },
+  "optionsTranslate": {
+    "message": "协助翻译这个扩展"
+  },
+  "optionsReportIssue": {
+    "message": "报告问题"
+  }
+}
